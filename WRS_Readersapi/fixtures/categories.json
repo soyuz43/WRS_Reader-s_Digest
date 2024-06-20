@@ -1,0 +1,37 @@
+[
+    {
+        "model": "WRS_Readersapi.category",
+        "pk": 1,
+        "fields": {
+            "name": "Fiction"
+        }
+    },
+    {
+        "model": "WRS_Readersapi.category",
+        "pk": 2,
+        "fields": {
+            "name": "Science Fiction"
+        }
+    },
+    {
+        "model": "WRS_Readersapi.category",
+        "pk": 3,
+        "fields": {
+            "name": "Fantasy"
+        }
+    },
+    {
+        "model": "WRS_Readersapi.category",
+        "pk": 4,
+        "fields": {
+            "name": "Non-fiction"
+        }
+    },
+    {
+        "model": "WRS_Readersapi.category",
+        "pk": 5,
+        "fields": {
+            "name": "Biography"
+        }
+    }
+]
