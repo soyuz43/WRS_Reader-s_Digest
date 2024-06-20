@@ -2,6 +2,7 @@
 from rest_framework import viewsets, status
 from rest_framework.response import Response
 from WRS_Readersapi.models import Category
+from WRS_Readersapi.serializers.category_serializer import CategorySerializer  # Adjust import path as per your project structure
 
 class CategoryViewSet(viewsets.ViewSet):
     """

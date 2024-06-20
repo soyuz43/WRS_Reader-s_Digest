@@ -7,4 +7,5 @@ python3 manage.py makemigrations WRS_Readersapi
 python3 manage.py migrate WRS_Readersapi
 python3 manage.py loaddata users
 python3 manage.py loaddata tokens
-
+python3 manage.py loaddata categories  # Load categories.json
+python3 manage.py loaddata books  # Load books.json
