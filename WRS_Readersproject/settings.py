@@ -1,4 +1,4 @@
-
+# settings.py
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -16,7 +16,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
+# append_slash
+APPEND_SLASH = False
 # Application definition
 
 INSTALLED_APPS = [
