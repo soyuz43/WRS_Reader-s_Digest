@@ -8,6 +8,6 @@ class Book(models.Model):
     isbn_number = models.CharField(max_length=13, null=True, blank=True)
     cover_image = models.URLField(null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
-
+    categories = models.ManyToManyField('Category') 
     def __str__(self):
         return self.title
